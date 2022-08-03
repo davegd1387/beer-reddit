@@ -22,7 +22,7 @@ const HomeReddits = () => {
 
   useEffect(() => {
     dispatch(fetchPosts(selectedSubreddit));
-  }, [selectedSubreddit]);
+  }, [selectedSubreddit,dispatch]);
 
   const onToggleComments = (index) => {
     const getComments = (permalink) => {
@@ -35,7 +35,6 @@ const HomeReddits = () => {
   if (isLoading) {
     return (
       <h2>{loadingTag}</h2>
-      // <h2>Its pouring, mug filling nicely...</h2>
     );
   }
 
