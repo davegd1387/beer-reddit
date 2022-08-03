@@ -1,0 +1,62 @@
+/* search-bar is main container */
+
+.search-bar {
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+    color: white;
+    background-color: black;
+}
+
+
+/* search-title-div 1st child */
+
+.search-title-div {
+    font-size: 2rem;
+    font-weight: normal;
+    width: 40%;
+}
+
+.search-title-div span {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+
+/* subreddit-dropdown-div 2nd child */
+
+.subreddit-dropdown-div {
+    width: 30%;
+}
+
+
+/* search-form-div 3rd child */
+
+.search-form-div {
+    width: 30%;
+}
+
+.search-form input {
+    font-size: 1.5rem;
+}
+
+.search-form button {
+    font-size: 1.5rem;
+}
+
+.subreddit-opt {
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+}
+
+.place-holder {
+    /* color: red; */
+    font-size: 1rem;
+}
