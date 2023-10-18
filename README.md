@@ -1,7 +1,7 @@
 # Beer-Reddit
 
 This is a Codecademy project. It started life as a site dedicated to a predetermined list of beer & homebrewing related subreddits.
-Somewhere along the line, I added the functionality to for additional topics and associated subreddits.
+Somewhere along the line, I added the functionality for additional topics and associated subreddits.
 
 ## This project uses:
 
